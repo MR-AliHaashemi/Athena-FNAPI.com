@@ -49,7 +49,7 @@ class Athena:
                 else:
                     log.info("Data checked, nothing was changed.")
 
-                sleep(self.checkForUpdates)
+                sleep(15)
 
     def fetch_itemshop_data(self) -> dict:
         itemshop = self.utility.get_itemshop(self.language)
